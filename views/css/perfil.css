@@ -1,0 +1,378 @@
+/* ==============================
+    PERFIL
+================================ */
+.perfilTabs{
+    margin-top: 50px;
+}
+
+#perfil figure#imgPerfil img{
+    width: 80%;
+    margin: 10px 0px;
+}
+
+#perfil button.CambiarFoto{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#perfil .boxUser{
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.boxUser .contEditar{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border: 2px solid #12b1bd;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxUser .contEditar span{
+    width: 5%;
+}
+
+.boxUser .contEditar span i{
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #12b1bd;
+}
+
+.boxUser .contEditar input{
+    width: 94%;
+    border: none;
+    color: #7a7a7a;
+    font-size: 18px;
+    margin-top: -4px;
+    transition: all .3s ease;
+}
+
+.boxUser .contEditar input:focus{
+    outline: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.boxUser .userEnviar{
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    float: left;
+}
+
+#perfil{
+    position: relative;
+}
+
+.btnEliminarUsuario{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background: #ca1a1a;
+    color: #fff;
+}
+
+#perfil #subirImagen{
+    display: none;
+    margin: 25px auto 10px auto;
+    border: 2px dotted #ccc;
+    overflow: hidden;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#perfil #subirImagen .contFile{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    width: 190px;
+    height: 45px;
+    background: #12b1bd;
+}
+
+#perfil #subirImagen .contFile p{
+    font-size: 15px;
+}
+
+#perfil #subirImagen .contFile input.btnFile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#perfil #subirImagen #datosImagen{
+    height: 45px;
+}
+
+#perfil #subirImagen img{
+    width: 100%;
+    padding: 10px;
+}
+
+#compras .comprasGroup{
+    width: 100%;
+}
+
+#compras .comprasGroup .panelDefault{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.progreso a{
+    color: #000;
+}
+
+.progreso h6{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.progreso .barraProgress{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.progress-bar{
+    background-color: #8b8b8b;
+}
+
+.barraProgress i.activar{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.barraProgress i.desactivar{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #7e7e7e;
+}
+
+.barraProgress p.activar{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.barraProgress p.desactivar{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.bg-camino{
+    background-color: darkcyan;
+}
+
+.progreso .fechaCompra{
+    font-size: 13px;
+    color: #8b8b8b;
+    float: right;
+    margin-top: 10px;
+}
+
+.comentariosSection .btnCalificar{
+    width: 100%;
+    height: 35px;
+}
+
+.comentariosSection .btnCalificar a button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+
+.comentariosSection .starCal{
+    width: 100%;
+    height: 34px;
+    font-size: 25px;
+}
+
+.comentariosSection .starCal h4{
+    width: auto;
+    float: right;
+}
+
+.comentariosSection .starCal i{
+    cursor: pointer;
+    color: #ecdd06;
+}
+
+.comentariosSection .comentPanel{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 18px;
+    text-align: justify;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.estrellasCal{
+    position: relative;
+    height: 45px;
+}
+
+.estrellasCal .estrellasBody{
+    font-size: 30px;
+}
+
+.estrellasCal .estrellasBody i{
+    cursor: pointer;
+    color: #ecdd06;
+}
+
+.estrellasCal .estrellaslabel{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    margin-top: -45px;
+}
+
+.estrellasCal .estrellaslabel input{
+    width: 35px;
+    height: 40px;
+    margin: 2px 1px 0 1px;
+    opacity: .01;
+    background: #12b1bd;
+    cursor: pointer;
+}
+
+.comentarioGroup{
+    margin-top: 15px;
+}
+
+.comentarioGroup textarea{
+    margin-top: 15px;
+    width: 85%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 10px;
+    border: 2px solid #0c8488;
+    color: #7a7a7a;
+    font-size: 20px;
+    transition: .2s all ease;
+}
+
+.comentarioGroup textarea:focus{
+    outline: none !important;
+    border-color: #12b1bd;
+    color: #000;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+input.calificarProductoBtn{
+    width: 40%;
+    padding: 5px;
+    border: 2px solid #06404b;
+    border-radius: 50px;
+    background: #35b5cc;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: all .2s ease-out;
+}
+
+input.calificarProductoBtn:hover{
+    border: 2px solid #35b5cc;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+    ESCRITORIO GRANDE 1366
+================================ */
+@media (min-width:1200px) {
+    
+}
+
+
+/* ==============================
+    ESCRITORIO MEDIANO 1024
+================================ */
+@media (max-width:1199px) and (min-width:992px){
+    
+}
+
+
+/* ==============================
+    ESCRITORIO PEQUEÑO 768
+================================ */
+@media (max-width:991px) and (min-width:768px){
+    .boxUser .contEditar input{
+        width: 90%;
+    }
+}
+
+/* ==============================
+    ESCRITORIO MUY PEQUEÑO 320
+================================ */
+@media (max-width:767px){
+    .boxUser .contEditar span i{
+        width: 30px;
+        font-size: 15px;
+        text-align: center;
+        color: #12b1bd;
+    }
+
+    .boxUser .contEditar input{
+        width: 87%;
+        border: none;
+        color: #7a7a7a;
+        font-size: 13px;
+        margin-top: -4px;
+        transition: all .3s ease;
+    }
+
+    .boxUser .contEditar input:focus{
+        outline: none;
+        color: #000000;
+        font-size: 15px;
+    }
+}

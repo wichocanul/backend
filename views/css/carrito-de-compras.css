@@ -1,0 +1,102 @@
+/* ==============================
+    CARRITO DE COMPRAS
+================================ */
+
+.cabeceraCarrito{
+    width: 100%;
+    height: 40px;
+    background: #eee;
+    margin-bottom: 10px;
+}
+
+.cabeceraCarrito h3{
+    color: #868685;
+}
+
+.itemCarrito{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.cuerpoCarrito hr{
+    color: #979797;
+}
+
+.cuerpoCarrito .borrarCarrito button{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #ff0606;
+    margin-left: 50%;
+    left: -20px;
+    color: #fff;
+    font-size: 26px;
+    transition: .2s ease;
+}
+
+.cuerpoCarrito .borrarCarrito button:hover{
+    border-radius: 50px;
+    transform: rotate(100deg);
+    background: #051920;
+}
+
+.cuerpoCarrito a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cuerpoCarrito p.tituloCarritoCompras{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.cuerpoCarrito .cantidadCarrito input{
+    position: relative;
+    width: 100px;
+    margin-left: 50%;
+    left: -50px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    padding: 6px 0;
+    transition: .3s all ease;
+}
+
+.cuerpoCarrito .cantidadCarrito input:focus{
+    outline: none !important;
+    border: 2px solid #5e5e5e;
+    border-radius: 5px;
+    background: #edf2f3;
+}
+
+.sumaCarrito{
+    width: 100%;
+    height: 40px;
+    position: relative
+}
+
+.sumaCarrito .sumaCont{
+    position: absolute;
+    right: 1px;
+}
+
+.sumaCarrito button{
+    position: absolute;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    right: 2%;
+    border-radius: 5px;
+    background: #22a1cf;
+    transition: .3s all ease;
+}
+
+.sumaCarrito button:hover{
+    background: #1380a8;
+}
+
+.textCarritoNull{
+    padding: 100px 0;
+    color: #868685;
+}

@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    /* font-family: 'Ubuntu', sans-serif; */
+
+
+/*======================================================
+INFOPRODUCTO
+======================================================*/
+
+.infoproducto figure.visor img{
+    display: none;
+    cursor: crosshair;
+}
+
+.infoproducto figure.visor img:first-child{
+    display: block;
+}
+
+.flexslider{
+    cursor: pointer;
+}
+
+.producto{
+    position: relative;
+}
+
+.producto .lupa{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.lupa img{
+    position: relative;
+    margin-top: -100%;
+    margin-left: -50%;
+    width: 160%;
+}
+
+.btnContinua a{
+    font-size: .9rem;
+}
+
+.compartirRedes{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.compartirRedes li p{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding: 4px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.compartirRedes li p i{
+    margin-right: 10px;
+}
+
+.btnFacebook{
+    background: #46649f;
+    border-radius: 5px;
+}
+
+.btnInstagram{
+    background: #d61395;
+    border-radius: 5px;
+}
+
+.infoPTitulo{
+    margin-top: 20px;
+    color: #010714;
+    font-weight: bold;
+}
+
+.infoPPrecio{
+    margin-top: 20px;
+    color: #010714;
+    font-weight: bold;
+}
+
+.infoDesc{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.btnDetalles{
+    width: 100%;
+    height: 35px;
+    background: #f8f8f8;
+    border: 2px solid #006699;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+.btnDetalles option{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.marca{
+    height: 40px;
+}
+
+.marca p{
+    line-height: 40px;
+    font-size: 1.3rem;
+}
+
+.marca p span{
+    font-size: 1.2rem;
+}
+
+.botonCompra{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+button.compra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    height: 60px;
+    background: #006699;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Ubuntu';
+    transition: all .4s ease;
+    margin: 5px 0;
+}
+
+button.compra i{
+    margin-right: 10px;
+    font-size: 1rem;
+    transition: all .4s ease;
+}
+
+button.compra p{
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1;
+    display: block;
+    transition: all .4s ease;
+}
+
+button.compra:hover{
+    background: #17a8cc;
+    font-size: 1.4rem;
+}
+
+button.compra:hover > p{
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+.secEntrega{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comentBox{
+    margin-top: 50px;
+}
+
+.caliBox{
+    float: right;
+}
+
+.comentarios{
+    width: 100%;
+}
+
+.comentarios .alturaComentarios{
+    height: auto;
+    max-height: 380px;
+}
+
+.GrupoComent{
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    background: #ebebeb;
+    margin-bottom: 40px;
+}
+
+.namePhoto{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.namePhoto .contima{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    overflow: hidden;
+    background: #006d8f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.namePhoto .contima img{
+    width: 100%;
+    height: auto;
+}
+
+.namePhoto p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.comentPersonal{
+    padding: 10px;
+    background: #ffffff;
+    text-align: justify;
+}
+
+.caliPersonal{
+    padding: 10px;
+    text-align: center;
+    color: #006d8f;
+}
+
+
+
+
+
+
+
+
+/* ==============================
+    ESCRITORIO GRANDE 1366
+================================ */
+@media (min-width:1200px) {
+    
+}
+
+
+/* ==============================
+    ESCRITORIO MEDIANO 1024
+================================ */
+@media (max-width:1199px) and (min-width:992px){
+    
+}
+
+
+/* ==============================
+    ESCRITORIO PEQUEÑO 768
+================================ */
+@media (max-width:991px) and (min-width:768px){
+
+    .btnContinua a{
+        font-size: .8rem;
+    }
+
+    .infoPTitulo{
+        margin-top: 10px;
+        color: #010714;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .infoPPrecio{
+        margin-top: 20px;
+        color: #010714;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    .infoDesc{
+        text-align: justify;
+        font-size: .9rem;
+        margin-top: 15px;
+    }
+
+    .botonCompra:first-child{
+        margin-top: 20px;
+    }
+
+    button.compra{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 100%;
+        height: 40px;
+        background: #006699;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'Ubuntu';
+        transition: all .4s ease;
+        margin: 5px 0;
+    }
+
+    button.compra i{
+        margin-right: 5px;
+        font-size: 1rem;
+        transition: all .4s ease;
+    }
+
+    button.compra p{
+        margin-top: 15px;
+        font-size: .8rem;
+        opacity: 1;
+        display: block;
+        transition: all .4s ease;
+    }
+
+    button.compra:hover > p{
+        opacity: 1;
+        font-size: .9rem;
+    }
+
+    .secEntrega{
+        position: relative;
+        width: 100%;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* ==============================
+    ESCRITORIO MUY PEQUEÑO 320
+================================ */
+@media (max-width:767px){
+
+    .btnContinua a{
+        font-size: .8rem;
+    }
+
+    .infoDesc{
+        text-align: justify;
+        font-size: .9rem;
+        margin-top: 15px;
+    }
+
+    .botonCompra:first-child{
+        margin-top: 20px;
+    }
+
+    button.compra{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 100%;
+        height: 40px;
+        background: #006699;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'Ubuntu';
+        transition: all .4s ease;
+        margin: 5px 0;
+    }
+
+    .secEntrega{
+        position: relative;
+        width: 100%;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}

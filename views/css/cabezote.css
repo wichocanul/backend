@@ -1,0 +1,482 @@
+/* ==============================
+    TOP
+================================ */
+#top ul{
+    padding-top: 8px;
+}
+
+#top ul li{
+    display: inline;
+    line-height: 30px;
+    margin: 0px 5px;
+    color: white;
+}
+
+.social ul li a i{
+    margin: 10px 5px 0 0;
+}
+
+.registro ul{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* ==============================
+    HEADER
+================================ */
+header #logotipo img{
+    width: 100%;
+    padding: 30px 40px;
+    padding-left: 0px;
+    margin-top: -20px;
+}
+
+header #btnCategorias{
+    margin: 20px 0;
+}
+
+header #btnCategorias p{
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+header #btnCategorias p span{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+header #buscador{
+    margin: 10px 0;
+}
+
+header #buscador input, header #buscador span button{
+    margin-top: 20px;
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 0px;
+}
+
+header #carrito{
+    margin: 30px 0 0 0;
+}
+
+header #carrito button{
+    padding: 8px 12px;
+    border: 1px solid silver;
+    border-radius: 0px;
+}
+
+header #carrito p{
+    padding: 2px;
+    padding-left: 60px;
+    border: 1px solid #d3d3d3;
+    font-size: 12px;
+}
+
+header #categorias{
+    display: none;
+    margin-top: -10px;
+    margin-left: 0px;
+    position: relative;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
+
+header #categorias h4{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+header #categorias hr{
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+
+header #categorias .firstcat{
+    margin-left: 20px;
+}
+
+/* ==============================
+    ERROR 404
+================================ */
+
+.contError{
+    margin-top: 50px;
+    color: #333;
+}
+
+.textError{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textError h1{
+    font-size: 120px;
+    margin-bottom: 50px;
+    text-shadow: 8px 8px 1px #dadada;
+}
+
+.textError h4{
+    font-size: 30px;
+}
+
+.contError img{
+    width: 100%;
+}
+
+.contError .noProductos{
+    font-size: 150px;
+    margin-bottom: 50px;
+}
+
+/* ==============================
+VENTANA MODAL
+================================ */
+.imaRegistro{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    margin-left: -150px;
+}
+
+.modalBox{
+    background: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+.modalTitulo{
+    padding: 5px 0px;
+}
+
+.modalTitulo h3{
+    text-align: center;
+    margin-top: -5px;
+    padding: 15px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.modalTitulo .btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+}
+
+.modalFormulario .facebook p, .modalFormulario .google p{
+    cursor: pointer;
+}
+
+.modalFormulario .facebook p{
+    background: #132d5f;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    padding: 8px;
+    font-size: 15px;
+    margin: 10px 0px 0px 10px;
+}
+
+.modalFormulario .facebook p i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.modalFormulario .google p i{
+    margin-right: 10px;
+}
+
+.modalFormulario .google p{
+    background: #b82424;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    padding: 8px;
+    font-size: 15px;
+    margin: 10px 10px 20px 0px;
+}
+
+.boxreg{
+    width: 80%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.boxreg span i{
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.boxreg input{
+    width: 80%;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #35b5cc;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.checkBox{
+    width: 100%;
+}
+
+.checkBox label{
+    margin-top: 15px;
+}
+
+.checkBox label p a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -5px;
+    color: #0c6372;
+}
+
+input.registroEnviar{
+    width: 40%;
+    padding: 5px;
+    border: 2px solid #06404b;
+    border-radius: 50px;
+    background: #35b5cc;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    transition: all .2s ease-out;
+}
+
+input.registroEnviar:hover{
+    border: 2px solid #35b5cc;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 50%;
+}
+
+input.registroEnviar2{
+    width: 40%;
+    padding: 5px;
+    border: 2px solid #06404b;
+    border-radius: 50px;
+    background: #35b5cc;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: all .2s ease-out;
+}
+
+input.registroEnviar2:hover{
+    border: 2px solid #35b5cc;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.footerReg p, .footerReg a{
+    font-size: 13px;
+}
+
+.warningAlert{
+    margin: 15px auto -5px auto;
+    background: #e4de89;
+    color: #585858;
+    width: 80%;
+    font-size: 12px;
+}
+
+.warningAlert2{
+    margin: 5px auto 5px auto;
+    background: #e4de89;
+    color: #585858;
+    width: 80%;
+    font-size: 12px;
+}
+
+.imgCabePerfil{
+    border-radius: 50px;
+}
+
+a.olvCont{
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+label.labelPassEmail{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #585858;
+}
+
+
+
+
+
+
+
+
+
+/* ==============================
+    ESCRITORIO GRANDE 1366
+================================ */
+@media (min-width:1200px) {
+
+    /* ==============================
+    HEADER
+    ================================ */
+    header #logotipo img{
+        width: 100%;
+        padding: 30px 40px;
+        padding-left: 0px;
+    }
+    header #carrito{
+        padding-left: 100px;
+    }
+}
+
+
+/* ==============================
+    ESCRITORIO MEDIANO 1024
+================================ */
+@media (max-width:1199px) and (min-width:992px){
+
+    /* ==============================
+    HEADER
+    ================================ */
+    header #logotipo img{
+        width: 100%;
+        padding: 30px 30px;
+        padding-left: 0px;
+    }
+    header #carrito{
+        padding-left: 60px;
+    }
+}
+
+
+/* ==============================
+    ESCRITORIO PEQUEÑO 768
+================================ */
+@media (max-width:991px) and (min-width:768px){
+
+    /* ==============================
+    HEADER
+    ================================ */
+    header #logotipo img{
+        width: 100%;
+        padding: 33px 0px;
+    }
+    header #carrito{
+        padding-left: 122px;
+    }
+    header #carrito p{
+        display: none;
+    }
+    /* ==============================
+    ERROR 404
+    ================================ */ 
+    .textError h1{
+        font-size: 80px;
+        margin-bottom: 30px;
+        text-shadow: 8px 8px 1px #dadada;
+    }
+    .textError h4{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    .contError img{
+        width: 100%;
+    }
+
+    .contError .noProductos{
+        font-size: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+/* ==============================
+    ESCRITORIO MUY PEQUEÑO 320
+================================ */
+@media (max-width:767px){
+    /* ==============================
+    TOP
+    ================================ */
+    #top ul{
+        text-align: center;
+    }
+    #top .registro{
+        border-top: 1px solid #222;
+    }
+    
+    /* ==============================
+    HEADER
+    ================================ */
+    header #logotipo img{
+        width: 100%;
+        padding: 30px;
+        padding-bottom: 10px;
+    }
+    header #btnCategorias{
+        width: 130px;
+        height: 40px;
+        margin: 20px 0 -5px 0;
+    }
+    header #buscador{
+        margin-bottom: 15px;
+    }
+    header #carrito{
+        margin: 0 0 10px 0;
+    }
+
+    /* ==============================
+    ERROR 404
+    ================================ */ 
+    .textError h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 1px #dadada;
+    }
+    .textError h4{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .contError img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contError .noProductos{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .contError .subNoProductos{
+        font-size: 15px;
+    }
+
+
+    .modalFormulario .google p{
+        background: #b82424;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        padding: 8px;
+        font-size: 15px;
+        margin: 10px 10px 0px 10px;
+    }
+
+    .modalFormulario .facebook p{
+        background: #132d5f;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        padding: 8px;
+        font-size: 15px;
+        margin: 10px 10px 0px 10px;
+    }
+}

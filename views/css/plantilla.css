@@ -1,0 +1,196 @@
+/* FUENTES: */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    /* font-family: 'Ubuntu', sans-serif; */
+
+
+/* ==============================
+    GLOBAL
+================================ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul, ol{
+    padding: 0px;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+    list-style: none;
+    text-decoration: none;
+}
+
+.barraSuperior{
+    background: black;
+}
+
+.barraSuperior a{
+    color: white;
+}
+
+.backColor, .backColor a{
+    background: #002D3C;
+    color: white;
+}
+
+/* ==============================
+    REDES SOCIALES
+================================ */
+
+
+.redSocial{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    padding: 4px;
+}
+
+.facebookColor{
+    background: #46639f;
+    color: white;
+}
+
+.instagramColor{
+    background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2);
+    color: white;
+}
+
+.whatsappColor{
+    background: #35ec63;
+    color: white;
+}
+
+.spotifyColor{
+    background: #146935;
+    color: #ffffff;
+}
+
+/* ==============================
+    SCROOL UP
+================================ */
+
+#button_up{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #46a2fd;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9;
+    cursor: pointer;
+    transition: all .3s ease;
+    transform: scale(0);
+}
+
+#button_up:hover{
+    transform: scale(1.1);
+    font-size: 25px;
+    background: #143b63;
+    transition: all .3s ease;
+    width: 55px;
+    height: 55px;
+}
+
+.fondoBreadcrumb{
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+
+.fondoBreadcrumb li{
+    font-size: 20px;
+}
+
+
+/* ==============================
+    VERIFICAR
+================================ */
+.verificar h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    text-shadow: 4px 4px 1px #dadada;
+}
+
+.verificar .btnRegresarIngresar{
+    height: auto;
+    margin-top: 70px;
+}
+
+.verificar a{
+    color: #fff;
+    background: #006699;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+
+/* ==============================
+    ESCRITORIO GRANDE 1366
+================================ */
+@media (min-width:1200px) {
+    
+}
+
+
+/* ==============================
+    ESCRITORIO MEDIANO 1024
+================================ */
+@media (max-width:1199px) and (min-width:992px){
+    
+}
+
+
+/* ==============================
+    ESCRITORIO PEQUEÑO 768
+================================ */
+@media (max-width:991px) and (min-width:768px){
+
+}
+
+/* ==============================
+    ESCRITORIO MUY PEQUEÑO 320
+================================ */
+@media (max-width:767px){
+
+    .fondoBreadcrumb li{
+        font-size: 13px;
+    }
+
+    /* ==============================
+        VERIFICAR
+    ================================ */
+    .verificar h3{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 60px;
+        text-shadow: 4px 4px 1px #dadada;
+    }
+
+    .verificar .btnRegresarIngresar{
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .verificar a{
+        color: #fff;
+        background: #006699;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+    
+}

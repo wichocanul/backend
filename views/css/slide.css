@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "FSlide";
+    src: url("fonts/Mont-HeavyDEMO.otf");
+}
+/* ==============================
+    SLIDE
+================================ */
+#slide{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#slide .slideOpcion1 img{
+    position: absolute;
+    opacity: 1;
+    /* top: 15%;
+    right: 10%;
+    width: 45%; */
+    animation: ima1 6s infinite linear;
+    margin-top: -20px;
+    opacity: 0;
+}
+
+#slide .slideOpcion2 img{
+    position: absolute;
+    opacity: 1;
+    /* top: 5%;
+    left: 15%;
+    width: 25%; */
+    animation: ima2 6s infinite linear;
+    margin-left: 0px;
+    opacity: 0;
+}
+
+@keyframes ima1{
+    0%{
+        margin-top: -80px;
+        opacity: 0;
+    }
+    15%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+    90%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+    100%{
+        margin-top: 80px;
+        opacity: 0;
+    }
+}
+
+@keyframes ima2{
+    0%{
+        margin-left: -100px;
+        opacity: 0;
+    }
+    15%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+    95%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+    100%{
+        margin-left: 0px;
+        opacity: 0;
+    }
+}
+
+#slide .slideOpcion1 .textosSlide{
+    position: absolute;
+    /* width: 40%;
+    top: 20%;
+    left: 10%; */
+}
+
+#slide .slideOpcion2 .textosSlide{
+    position: absolute;
+    text-align: right;
+    /* width: 40%;
+    top: 25%;
+    right: 15%; */
+}
+
+#slide .slideOpciones h1, #slide .slideOpciones h2, #slide .slideOpciones h3{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 1;
+    top: -10%;
+    animation: texto 6s infinite linear;
+    opacity: 0;
+}
+
+@keyframes texto{
+    0%{
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#slide .slideOpciones h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+    font-family: "FSlide";
+}
+
+#slide .slideOpciones h2{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+#slide .slideOpciones h3{
+    font-size: 30px;
+}
+
+#slide .slideOpciones button{
+    border: 0px;
+    margin-top: 10px;
+    padding: 10px;
+    opacity: 1;
+    top: -10%;
+    border-radius: 3px;
+    transition: .3s all ease-out;
+}
+
+#slide .slideOpciones button:hover{
+    background: #087f9c;
+    color: white;
+    border: 0px;
+}
+
+#slide .slideOpciones button span{
+    margin-left: 10px;
+}
+
+
+
+/* ==============================
+    ESCRITORIO GRANDE 1366
+================================ */
+@media (min-width:1200px) {
+    
+}
+
+
+/* ==============================
+    ESCRITORIO MEDIANO 1024
+================================ */
+@media (max-width:1199px) and (min-width:992px){
+    #slide .slideOpciones h1{
+        font-size: 55px;
+        margin-bottom: 15px;
+    }
+    
+    #slide .slideOpciones h2{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    
+    #slide .slideOpciones h3{
+        font-size: 20px;
+    }
+}
+
+
+/* ==============================
+    ESCRITORIO PEQUEÑO 768
+================================ */
+@media (max-width:991px) and (min-width:768px){
+    #slide .slideOpciones h1{
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    
+    #slide .slideOpciones h2{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    #slide .slideOpciones h3{
+        font-size: 15px;
+    }
+    #slide .slideOpciones button{
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+
+/* ==============================
+    ESCRITORIO MUY PEQUEÑO 320
+================================ */
+@media (max-width:767px) and (min-width:324px){
+    #slide .slideOpciones h1{
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+    
+    #slide .slideOpciones h2{
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+    
+    #slide .slideOpciones h3{
+        display: none;
+    }
+    #slide .slideOpciones button{
+        margin-top: 10px;
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+}
+
+
+@media (max-width:323px){
+    #slide .slideOpciones h1{
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+    
+    #slide .slideOpciones h2{
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+    
+    #slide .slideOpciones h3{
+        display: none;
+    }
+    #slide .slideOpciones button{
+        margin-top: 10px;
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+    #slide .fondoSlide{
+        min-height: 150px;
+    }
+    #slide .fondoSlide{
+        min-height: 150px;
+    }
+}

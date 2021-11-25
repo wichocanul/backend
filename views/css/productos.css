@@ -1,0 +1,368 @@
+/* ==============================
+    BANNER
+================================ */
+
+.banner{
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner .textoBanner{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner .textoDer{
+    top: 70px;
+    right: 50px;
+    text-align: right;
+}
+
+.banner .textoIzq{
+    top: 70px;
+    left: 50px;
+    text-align: left;
+}
+
+.banner .textoCentro{
+    top: 70px;
+    left: 50%;
+    width: 800px;
+    margin-left: -400px;
+    text-align: center;
+}
+
+.textoBanner h1{
+    font-size: 35px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.textoBanner h2{
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.textoBanner h3{
+    font-size: 24px;
+    line-height: 25px;
+}
+
+
+
+/* ==============================
+    BARRA BANNER
+================================ */
+.barraProductos{
+    background: #eeeeee;
+}
+
+.organizarProductos{
+    margin: 15px 0;
+}
+
+.contbtn button{
+    padding: 7px 12px;
+    background: #e2e2e2;
+    border: 1px solid #969696;
+    transition: .5s all ease-out;
+}
+
+.contbtn .contbtn2{
+    background: #353131;
+    color: #168ac4;
+}
+
+.btnGrid{
+    border-radius: 5px 0 0 5px;
+}
+
+.btnList{
+    border-radius: 0 5px 5px 0;
+}
+
+.barraProductos .organizarProductos span{
+    margin-left: 5px;
+}
+
+.btn-drop{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: #e2e2e2;
+    color: #000000;
+    border: 1px solid #969696;
+    transition: all .3s ease;
+}
+
+.btn-drop:hover{
+    background: #353131;
+    color: #168ac4;
+}
+
+/* ==============================
+    BARRA PRODUCTOS CUADRICULA
+================================ */
+.productos{
+    margin-top: 20px;
+}
+
+.productos hr{
+    margin: 30px 0;
+}
+
+.tituloDestacado h1{
+    margin-top: -5px;
+    color: #969696;
+}
+
+.tituloDestacado button span{
+    margin-left: 7px;
+}
+
+.productos ul li figure{
+    overflow: hidden;
+    /* background: coral; */
+}
+
+.productos ul li a{
+    width: 100%;
+}
+
+.productos ul li a img{
+    transition: .3s all ease-out;
+    opacity: 1;
+    width: 100%;
+}
+
+.productos ul li a img:hover{
+    opacity: .8;
+    transform: scale(1.1, 1.1);
+}
+
+.productos ul li h4 small{
+    color: #777;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.productos ul li h4 small a{
+    color: #777;
+}
+
+.productos ul li .precio{
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.productos ul li .enlaces{
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.productos ul li .enlaces button{
+    margin: 2px;
+    padding: 6px 5px;
+    border: none;
+    background: none;
+    transition: .5s all ease-out;
+    color: #999;
+}
+
+
+.productos ul li .enlaces button:hover{
+    border: none;
+    background: #d4d4d4;
+    border-radius: 5px;
+}
+
+.productos ul li .enlaces button i{
+    font-size: 20px;  
+}
+
+.productos ul li .enlaces button img{
+    width: 20px;
+    height: auto;
+}
+
+/* ==============================
+    PRODUCTOS VISTA
+================================ */
+.productos ul li h1{
+    margin-top: -10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.productos ul li h1 small{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.productos ul li h1 small a{
+    color: #777;
+}
+
+.oferta{
+    text-decoration: line-through;
+    color: #ccc;
+    font-size: 15px;
+}
+
+.normal{
+    font-size: 25px;
+}
+
+.fontSize{
+    font-size: 15px;
+}
+
+.listahr hr{
+    margin: 10px 0 20px 0;
+    background: #c7c7c7;
+}
+
+hr.hrrelacionados{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+/* ==============================
+    ESCRITORIO GRANDE 1366
+================================ */
+@media (min-width:1200px) {
+    .banner{
+        height: 260px;
+    }
+    
+}
+
+
+/* ==============================
+    ESCRITORIO MEDIANO 1024
+================================ */
+@media (max-width:1199px) and (min-width:992px){
+    .banner{
+        height: 230px;
+    }
+    .productos hr{
+        margin: 20px 0 30px 0;
+    }
+    .oferta{
+        text-decoration: line-through;
+        color: #ccc;
+        font-size: 13px;
+    }
+    
+    .normal{
+        font-size: 20px;
+    }
+}
+
+
+/* ==============================
+    ESCRITORIO PEQUEÑO 768
+================================ */
+@media (max-width:991px) and (min-width:768px){
+    .banner{
+        height: 180px;
+    }
+    .banner .textoDer{
+        top: 40px;
+        right: 50px;
+        text-align: right;
+        text-shadow: 2px 2px 20px black;
+    }
+    
+    .banner .textoIzq{
+        top: 40px;
+        left: 50px;
+        text-align: left;
+        text-shadow: 2px 2px 20px black;
+    }
+    
+    .banner .textoCentro{
+        top: 40px;
+        left: 50%;
+        width: 800px;
+        margin-left: -400px;
+        text-align: center;
+        text-shadow: 2px 2px 20px black;
+    }
+    .textoBanner h1{
+        margin-bottom: 10px;
+    }
+    .textoBanner h2{
+        margin-bottom: 10px;
+    }
+    .productos hr{
+        margin: 15px 0 30px 0;
+    }
+}
+
+/* ==============================
+    ESCRITORIO MUY PEQUEÑO 320
+================================ */
+@media (max-width:767px){
+    .banner{
+        height: 100px;
+    }
+    .banner .textoDer, .banner .textoCentro{
+        width: 800px;
+        left: 50%;
+        top: 7px;
+        margin-left: -400px;
+        text-align: center;
+        text-shadow: 2px 2px 20px black;
+    }
+    .banner .textoIzq{
+        width: 800px;
+        top: 7px;
+        left: 50%;
+        margin-left: -400px;
+        text-align: center;
+        text-shadow: 2px 2px 20px black;
+    }
+    .textoBanner h1{
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .textoBanner h2{
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .textoBanner h3{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .tituloDestacado h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .tituloDestacado button{
+        position: absolute;
+        left: 50%;
+        width: 40%;
+        margin-left: -20%;
+    }
+    .productos hr{
+        margin: 45px 0 30px 0;
+    }
+
+    /* PRODUCTOS LISTA */
+    .productos ul li h1 small{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
